@@ -1,0 +1,660 @@
+{
+	"info": {
+		"_postman_id": "c22de4c3-ec74-496b-a25e-d110c398966f",
+		"name": "Post",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29072883"
+	},
+	"item": [
+		{
+			"name": "Get Post List",
+			"item": [
+				{
+					"name": "Get Post List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post",
+							"host": [
+								"{{base}}post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List Error",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post",
+							"host": [
+								"{{base}}post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List (page=0)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post?page=0",
+							"host": [
+								"{{base}}post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List (page=1)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post?page=1",
+							"host": [
+								"{{base}}post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List (page=999)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post?page=999",
+							"host": [
+								"{{base}}post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "999"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List (page=1000)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post?page=1000",
+							"host": [
+								"{{base}}post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List (page=dfgh)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post?page=dfgh",
+							"host": [
+								"{{base}}post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "dfgh"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List (page=  )",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post?page=",
+							"host": [
+								"{{base}}post"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List (limit=4)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post?limit=4",
+							"host": [
+								"{{base}}post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List (limit=5)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post?limit=5",
+							"host": [
+								"{{base}}post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List (limit=50)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post?limit=50",
+							"host": [
+								"{{base}}post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "50"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List (limit=51)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post?limit=51",
+							"host": [
+								"{{base}}post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "51"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List (limit=   )",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post?limit=",
+							"host": [
+								"{{base}}post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List (limit=sdvb)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post?limit=sxcvbnm",
+							"host": [
+								"{{base}}post"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "sxcvbnm"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List (created=0)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post?created=0",
+							"host": [
+								"{{base}}post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List (created=1)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post?created=1",
+							"host": [
+								"{{base}}post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List (created=2)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post?created=2",
+							"host": [
+								"{{base}}post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List (created=  )",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post?created=",
+							"host": [
+								"{{base}}post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Post List (created= sdfg)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base}}post?created=sdfg",
+							"host": [
+								"{{base}}post"
+							],
+							"query": [
+								{
+									"key": "created",
+									"value": "sdfg"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Create Post",
+			"item": [
+				{
+					"name": "Create Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"hello flowers\",\r\n    \"image\": \"{{$randomImageUrl}}\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n                \"animal\",\r\n                \"dog\",\r\n                \"golden retriever\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base}}post/create",
+							"host": [
+								"{{base}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post Error",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"hello flowers\",\r\n    \"image\": \"https://i.pinimg.com/564x/1b/30/e4/1b30e464b24dc7a8bd0b1fd9c10d80c4.jpg\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n                \"animal\",\r\n                \"dog\",\r\n                \"golden retriever\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base}}post/create",
+							"host": [
+								"{{base}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (text = 5 letters)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"hello\",\r\n    \"image\": \"{{$randomImageUrl}}\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n                \"animal\",\r\n                \"dog\",\r\n                \"golden retriever\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base}}post/create",
+							"host": [
+								"{{base}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (text = 6 letters)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"helloo\",\r\n    \"image\": \"{{$randomImageUrl}}\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n                \"animal\",\r\n                \"dog\",\r\n                \"golden retriever\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base}}post/create",
+							"host": [
+								"{{base}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (text = boolean)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": {{$randomBoolean}},\r\n    \"image\": \"{{$randomImageUrl}}\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n                \"animal\",\r\n                \"dog\",\r\n                \"golden retriever\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base}}post/create",
+							"host": [
+								"{{base}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (text = 2435)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\":  2536,\r\n    \"image\": \"{{$randomImageUrl}}\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n                \"animal\",\r\n                \"dog\",\r\n                \"golden retriever\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base}}post/create",
+							"host": [
+								"{{base}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (text = 51)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\":  \"hello how are you i hope you are okey I'm waitingf.\",\r\n    \"image\": \"{{$randomImageUrl}}\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n                \"animal\",\r\n                \"dog\",\r\n                \"golden retriever\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base}}post/create",
+							"host": [
+								"{{base}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (without_text)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"{{$randomImageUrl}}\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n                \"animal\",\r\n                \"dog\",\r\n                \"golden retriever\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base}}post/create",
+							"host": [
+								"{{base}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post (text = 50 letters)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"hello how are you i hope you are okey I'm waiting.\",\r\n    \"image\": \"{{$randomImageUrl}}\",\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n                \"animal\",\r\n                \"dog\",\r\n                \"golden retriever\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a109ca\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base}}post/create",
+							"host": [
+								"{{base}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{app-id}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "app-id",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
